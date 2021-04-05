@@ -30,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
         }
         if (getIntent().getStringExtra("ipk") != null) {
             ipk2 = getIntent().getStringExtra("ipk");
-            tv_ipk.setText("Ipk  = " + ipk2);
+            tv_ipk.setText("Nilai  = " + ipk2);
         }
     }
 }
